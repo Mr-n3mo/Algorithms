@@ -24,6 +24,30 @@ void printArray(int x[], int size)
     printf("array[%d] = %d\n", i, x[i]);
 }
 
+
+
+void bubbleSort(int x[], int size)
+{
+  int temp = 0, i = 0, j = 0;
+
+  for(i=size-2; i>=0; i--)
+    {
+      for(j=0; j<size; j++)
+	{
+	  if(x[j] > x[j+1])
+	    {
+	      temp = x[j];
+	      x[j] = x[j+1];
+	      x[j+1] = temp;
+	    }
+	}
+    }
+	     
+}
+
+
+/*
+
 void bubbleSort(int x[], int size)
 {
   int temp = 0, i = 0, j = 0;
@@ -42,3 +66,4 @@ void bubbleSort(int x[], int size)
     }
 	     
 }
+*/
