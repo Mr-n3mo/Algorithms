@@ -45,25 +45,3 @@ void bubbleSort(int x[], int size)
 	     
 }
 
-
-/*
-
-void bubbleSort(int x[], int size)
-{
-  int temp = 0, i = 0, j = 0;
-
-  for(i=0; i<size; i++)
-    {
-      for(j=0; j<size; j++)
-	{
-	  if(x[i] < x[j])
-	    {
-	      temp = x[i];
-	      x[i] = x[j];
-	      x[j] = temp;
-	    }
-	}
-    }
-	     
-}
-*/
